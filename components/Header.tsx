@@ -32,8 +32,8 @@ const Header = () => {
             <span className="text-sm font-bold">LCAS</span>
           </div>
           <div className="hidden sm:flex flex-col">
-            <span className="text-sm font-bold leading-none">London College</span>
-            <span className="text-xs text-muted-foreground">Advanced Studies</span>
+            <h1 className="text-sm font-bold leading-none">London College Of Advanced Studies</h1>
+            {/* <span className="text-xs text-muted-foreground">Advanced Studies</span> */}
           </div>
         </Link>
 
@@ -71,9 +71,9 @@ const Header = () => {
           <Link href="/admissions" className="text-sm font-medium hover:text-primary transition-colors">
             Admissions
           </Link>
-          <Link href="/events" className="text-sm font-medium hover:text-primary transition-colors">
+          {/* <Link href="/events" className="text-sm font-medium hover:text-primary transition-colors">
             Events
-          </Link>
+          </Link> */}
           <Link href="/news" className="text-sm font-medium hover:text-primary transition-colors">
             News
           </Link>

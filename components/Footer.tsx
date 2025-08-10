@@ -50,12 +50,12 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600">
-                  <span className="text-sm font-bold">LC</span>
+                <div className="flex h-8 w-12 items-center justify-center rounded-lg bg-blue-600">
+                  <span className="text-sm font-bold">LCAS</span>
                 </div>
                 <div>
-                  <div className="text-sm font-bold">LCAS</div>
-                  <div className="text-xs text-slate-400">London College</div>
+                  <div className="text-sm font-bold">London College Of Advanced Studies</div>
+                  {/* <div className="text-xs text-slate-400">London College</div> */}
                 </div>
               </div>
               <p className="text-sm text-slate-300 max-w-sm">
@@ -89,7 +89,7 @@ const Footer = () => {
                     key={social.label}
                     variant="outline"
                     size="icon"
-                    className="h-9 w-9 border-slate-700 hover:border-blue-400 hover:text-blue-400"
+                    className="h-9 w-9 text-blue-400 border-slate-700 hover:border-blue-400 hover:text-blue-400"
                     asChild
                   >
                     <a href={social.href} aria-label={social.label}>
