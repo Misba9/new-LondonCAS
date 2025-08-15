@@ -6,25 +6,25 @@ const QuickStats = () => {
   const stats = [
     {
       icon: Award,
-      value: '16',
+      value: '--',
       label: 'Highfield Qualifications',
       description: 'Across 4 levels',
     },
     {
       icon: Users,
-      value: '100+',
+      value: '--',
       label: 'Students Enrolled',
       description: 'Growing community',
     },
     {
       icon: BookOpen,
-      value: '4',
+      value: '--',
       label: 'Study Levels',
       description: 'From Level 2 to 5',
     },
     {
       icon: TrendingUp,
-      value: '95%',
+      value: '--',
       label: 'Success Rate',
       description: 'Student completion',
     },

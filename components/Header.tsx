@@ -31,7 +31,7 @@ const Header = () => {
           <div className="flex h-8 w-12 items-center justify-center rounded-lg bg-primary text-primary-foreground">
             <span className="text-sm font-bold">LCAS</span>
           </div>
-          <div className="hidden sm:flex flex-col">
+          <div className=" sm:flex flex-col">
             <h1 className="text-sm font-bold leading-none">London College Of Advanced Studies</h1>
             {/* <span className="text-xs text-muted-foreground">Advanced Studies</span> */}
           </div>
@@ -62,9 +62,9 @@ const Header = () => {
                   </Link>
                 </DropdownMenuItem>
               ))}
-              <DropdownMenuItem asChild>
+              {/* <DropdownMenuItem asChild>
                 <Link href="/courses">View All Courses</Link>
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
             </DropdownMenuContent>
           </DropdownMenu>
 
@@ -74,9 +74,9 @@ const Header = () => {
           {/* <Link href="/events" className="text-sm font-medium hover:text-primary transition-colors">
             Events
           </Link> */}
-          <Link href="/news" className="text-sm font-medium hover:text-primary transition-colors">
+          {/* <Link href="/news" className="text-sm font-medium hover:text-primary transition-colors">
             News
-          </Link>
+          </Link> */}
           <Link href="/contact" className="text-sm font-medium hover:text-primary transition-colors">
             Contact
           </Link>

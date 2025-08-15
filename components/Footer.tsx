@@ -29,7 +29,7 @@ const Footer = () => {
     college: [
       { title: 'About Us', href: '/about' },
       { title: 'Events', href: '/events' },
-      { title: 'News & Blog', href: '/news' },
+      // { title: 'News & Blog', href: '/news' },
       { title: 'Careers', href: '/careers' },
     ]
   };

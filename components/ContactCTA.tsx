@@ -25,7 +25,7 @@ const ContactCTA = () => {
                   Apply Now
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900">
+              <Button asChild size="lg" variant="outline" className="border-white text-blue-900 hover:bg-white hover:text-blue-900">
                 <Link href="/contact">
                   Contact Us
                 </Link>
@@ -80,7 +80,7 @@ const ContactCTA = () => {
                 <p className="text-sm text-blue-100">
                   <strong className="text-white">Office Hours:</strong><br />
                   Monday to Friday: 9:00 AM - 6:00 PM<br />
-                  Saturday: 10:00 AM - 2:00 PM
+                  {/* Saturday: 10:00 AM - 2:00 PM */}
                 </p>
               </div>
             </CardContent>
