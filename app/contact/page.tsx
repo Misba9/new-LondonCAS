@@ -34,7 +34,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['info@londoncas.co.uk', 'admissions@londoncas.co.uk', 'support@londoncas.co.uk'],
+      details: ['info@londoncas.co.uk'],
       action: 'Send Email'
     },
     {

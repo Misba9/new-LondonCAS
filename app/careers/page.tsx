@@ -54,54 +54,54 @@ export default function CareersPage() {
         'Maintain accurate records and documentation'
       ]
     },
-    {
-      id: 'student-support-advisor',
-      title: 'Student Support Advisor',
-      department: 'Student Services',
-      location: 'London, E1',
-      type: 'Full-time',
-      salary: '£24,000 - £28,000',
-      posted: '2025-07-10',
-      description: 'Join our student support team to help students succeed in their educational journey.',
-      requirements: [
-        'Degree in relevant field or equivalent experience',
-        'Experience in student support or counseling',
-        'Understanding of adult learning principles',
-        'Excellent communication and listening skills',
-        'Ability to work with diverse student populations'
-      ],
-      responsibilities: [
-        'Provide academic and personal support to students',
-        'Conduct initial assessments and support planning',
-        'Liaise with tutors and external agencies',
-        'Maintain student records and case notes',
-        'Contribute to student retention and success initiatives'
-      ]
-    },
-    {
-      id: 'admissions-coordinator',
-      title: 'Admissions Coordinator',
-      department: 'Admissions',
-      location: 'London, E1',
-      type: 'Part-time',
-      salary: '£20,000 - £24,000 (pro rata)',
-      posted: '2025-07-05',
-      description: 'Support the admissions process and help prospective students begin their educational journey.',
-      requirements: [
-        'Strong administrative and organizational skills',
-        'Experience in customer service or education',
-        'Excellent written and verbal communication',
-        'Attention to detail and accuracy',
-        'Proficiency in Microsoft Office and databases'
-      ],
-      responsibilities: [
-        'Process applications and enrollment documentation',
-        'Conduct initial interviews with prospective students',
-        'Provide information and guidance to applicants',
-        'Maintain accurate admissions records',
-        'Support marketing and recruitment activities'
-      ]
-    }
+    // {
+    //   id: 'student-support-advisor',
+    //   title: 'Student Support Advisor',
+    //   department: 'Student Services',
+    //   location: 'London, E1',
+    //   type: 'Full-time',
+    //   salary: '£24,000 - £28,000',
+    //   posted: '2025-07-10',
+    //   description: 'Join our student support team to help students succeed in their educational journey.',
+    //   requirements: [
+    //     'Degree in relevant field or equivalent experience',
+    //     'Experience in student support or counseling',
+    //     'Understanding of adult learning principles',
+    //     'Excellent communication and listening skills',
+    //     'Ability to work with diverse student populations'
+    //   ],
+    //   responsibilities: [
+    //     'Provide academic and personal support to students',
+    //     'Conduct initial assessments and support planning',
+    //     'Liaise with tutors and external agencies',
+    //     'Maintain student records and case notes',
+    //     'Contribute to student retention and success initiatives'
+    //   ]
+    // },
+    // {
+    //   id: 'admissions-coordinator',
+    //   title: 'Admissions Coordinator',
+    //   department: 'Admissions',
+    //   location: 'London, E1',
+    //   type: 'Part-time',
+    //   salary: '£20,000 - £24,000 (pro rata)',
+    //   posted: '2025-07-05',
+    //   description: 'Support the admissions process and help prospective students begin their educational journey.',
+    //   requirements: [
+    //     'Strong administrative and organizational skills',
+    //     'Experience in customer service or education',
+    //     'Excellent written and verbal communication',
+    //     'Attention to detail and accuracy',
+    //     'Proficiency in Microsoft Office and databases'
+    //   ],
+    //   responsibilities: [
+    //     'Process applications and enrollment documentation',
+    //     'Conduct initial interviews with prospective students',
+    //     'Provide information and guidance to applicants',
+    //     'Maintain accurate admissions records',
+    //     'Support marketing and recruitment activities'
+    //   ]
+    // }
   ];
 
   const benefits = [
@@ -274,14 +274,14 @@ export default function CareersPage() {
       {/* Current Openings */}
       <section id="openings" className="py-16">
         <div className="container px-4">
-          <div className="text-center mb-12">
+          {/* <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Current Openings</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Explore our current job opportunities and find your next career move with LCAS.
             </p>
-          </div>
+          </div> */}
 
-          <div className="space-y-8">
+          {/* <div className="space-y-8">
             {currentOpenings.map((job) => (
               <Card key={job.id} className="hover:shadow-lg transition-shadow">
                 <CardHeader>
@@ -351,20 +351,23 @@ export default function CareersPage() {
                 </CardContent>
               </Card>
             ))}
-          </div>
+          </div> */}
 
-          {currentOpenings.length === 0 && (
+          {currentOpenings.length === 1 && (
             <Card className="text-center p-12">
               <CardContent>
                 <Briefcase className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">No Current Openings</h3>
-                <p className="text-muted-foreground mb-6">
+                {/* <p className="text-muted-foreground mb-6">
                   We don't have any open positions at the moment, but we're always interested 
                   in hearing from talented individuals.
+                </p> */}
+                <p className="text-muted-foreground mb-6">
+                 Currently, we don’t have any open positions. Please check back later for future opportunities.
                 </p>
-                <Button>
+                {/* <Button >
                   Submit Speculative Application
-                </Button>
+                </Button> */}
               </CardContent>
             </Card>
           )}

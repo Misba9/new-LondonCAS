@@ -16,38 +16,22 @@ const Footer = () => {
     ],
     admissions: [
       { title: 'Apply Now', href: '/apply' },
-<<<<<<< Updated upstream
       { title: 'Admissions Info', href: '/admissions' },
       { title: 'Entry Requirements', href: '/admissions#requirements' },
       { title: 'Application Process', href: '/admissions#process' },
-    ],
-    support: [
-      { title: 'Contact Support', href: '/support' },
-      { title: 'FAQs', href: '/faqs' },
-      { title: 'Student Support', href: '/support#student' },
-      { title: 'Technical Help', href: '/support#technical' },
-    ],
-    college: [
-      { title: 'About Us', href: '/about' },
-      { title: 'News & Updates', href: '/news' },
-=======
-      { title: 'Application Process', href: '/admissions/process' },
-      // { title: 'Entry Requirements', href: '/admissions/requirements' },
-      // { title: 'Fees & Finance', href: '/admissions/fees' },
     ],
     support: [
       // { title: 'Student Portal', href: '/portal/student' },
       // { title: 'Staff Portal', href: '/portal/staff' },
       { title: 'Contact Support', href: '/support' },
       { title: 'FAQs', href: '/faqs' },
-      { title: 'Privacy Policy', href: '/privacy-policy' },
-      { title: 'Terms & Conditions', href: '/terms-and-conditions' },
+      { title: 'Privacy Policy', href: '/privacy' },
+      { title: 'Terms & Conditions', href: '/terms' },
     ],
     college: [
       { title: 'About Us', href: '/about' },
       // { title: 'Events', href: '/events' },
       // { title: 'News & Blog', href: '/news' },
->>>>>>> Stashed changes
       { title: 'Careers', href: '/careers' },
       { title: 'Contact Us', href: '/contact' },
     ]
@@ -78,7 +62,7 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-sm text-slate-300 max-w-sm">
-                London College of Advanced Studies - delivering high-quality, 
+                London College of Advanced Studies - delivering high-quality,
                 career-focused education in Health and Social Care.
               </p>
             </div>
@@ -198,9 +182,18 @@ const Footer = () => {
           <div className="text-sm text-slate-400">
             © {currentYear} London College of Advanced Studies. All rights reserved.
           </div>
-          
+
           <div className="flex flex-wrap gap-6 text-sm text-slate-400">
-           {/* design and delope by ahmed */}
+            <span>
+              Designed & Developed by{" "}
+              <a
+                href="https://yourportfolio.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-slate-200 transition-colors"           >
+                Ahmed
+              </a>
+            </span>
           </div>
         </div>
       </div>
