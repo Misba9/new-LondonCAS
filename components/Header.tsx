@@ -71,12 +71,9 @@ const Header = () => {
           <Link href="/admissions" className="text-sm font-medium hover:text-primary transition-colors">
             Admissions
           </Link>
-          {/* <Link href="/events" className="text-sm font-medium hover:text-primary transition-colors">
-            Events
-          </Link> */}
-          {/* <Link href="/news" className="text-sm font-medium hover:text-primary transition-colors">
+          <Link href="/news" className="text-sm font-medium hover:text-primary transition-colors">
             News
-          </Link> */}
+          </Link>
           <Link href="/contact" className="text-sm font-medium hover:text-primary transition-colors">
             Contact
           </Link>
@@ -156,18 +153,18 @@ const Header = () => {
                   Admissions
                 </Link>
                 <Link
-                  href="/events"
-                  className="text-sm font-medium hover:text-primary transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Events
-                </Link>
-                <Link
                   href="/news"
                   className="text-sm font-medium hover:text-primary transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   News
+                </Link>
+                <Link
+                  href="/faqs"
+                  className="text-sm font-medium hover:text-primary transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  FAQs
                 </Link>
                 <Link
                   href="/contact"
