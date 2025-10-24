@@ -6,7 +6,7 @@ import UpcomingEvents from '@/components/UpcomingEvents';
 import NewsSection from '@/components/NewsSection';
 import ContactCTA from '@/components/ContactCTA';
 
-// export default function Home() {
+export default function Home() {
   return (
     <div className="min-h-screen">
       <Hero />
