@@ -41,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/images/London college.png" type="image/png" />
         <link rel="canonical" href="https://londoncas.co.uk" />
         <script
           type="application/ld+json"

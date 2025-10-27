@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
@@ -53,8 +54,14 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="flex h-8 w-12 items-center justify-center rounded-lg bg-blue-600">
-                  <span className="text-sm font-bold">LCAS</span>
+                <div className="flex items-center">
+                  <Image
+                    src="/images/London college.png"
+                    alt="LCAS"
+                    width={120}
+                    height={48}
+                    className="h-12 w-auto"
+                  />
                 </div>
                 <div>
                   <div className="text-sm font-bold">London College Of Advanced Studies</div>
@@ -84,7 +91,7 @@ const Footer = () => {
             </div>
 
             {/* Social Links */}
-            <div className="flex space-x-3">
+            {/* <div className="flex space-x-3">
               {socialLinks.map((social) => {
                 const Icon = social.icon;
                 return (
@@ -101,7 +108,7 @@ const Footer = () => {
                   </Button>
                 );
               })}
-            </div>
+            </div> */}
           </div>
 
           {/* Courses */}

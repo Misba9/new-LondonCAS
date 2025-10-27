@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, X, ChevronDown, User, Search } from 'lucide-react';
@@ -28,8 +29,14 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <div className="flex h-8 w-12 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <span className="text-sm font-bold">LCAS</span>
+          <div className="flex items-center">
+            <Image 
+              src="/images/London college.png" 
+              alt="LCAS" 
+              width={120}
+              height={48}
+              className="h-12 w-auto"
+            />
           </div>
           <div className=" sm:flex flex-col">
             <h1 className="text-sm font-bold leading-none">London College Of Advanced Studies</h1>
