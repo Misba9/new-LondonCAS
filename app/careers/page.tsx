@@ -3,10 +3,6 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { 
   Briefcase, 
   MapPin, 
@@ -18,9 +14,9 @@ import {
   Coffee,
   Laptop,
   GraduationCap,
-  Send,
   ArrowRight
 } from 'lucide-react';
+import CareersForm from './CareersForm';
 
 export const metadata = {
   title: 'Careers | London College of Advanced Studies',
@@ -363,7 +359,7 @@ export default function CareersPage() {
                   in hearing from talented individuals.
                 </p> */}
                 <p className="text-muted-foreground mb-6">
-                 Currently, we don’t have any open positions. Please check back later for future opportunities.
+                 Currently, we don't have any open positions. Please check back later for future opportunities.
                 </p>
                 {/* <Button >
                   Submit Speculative Application
@@ -396,96 +392,7 @@ export default function CareersPage() {
                     </p>
                   </CardHeader>
                   <CardContent>
-                    <form className="space-y-6">
-                      <div className="grid md:grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                          <Label htmlFor="firstName">First Name *</Label>
-                          <Input id="firstName" placeholder="Enter your first name" required />
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="lastName">Last Name *</Label>
-                          <Input id="lastName" placeholder="Enter your last name" required />
-                        </div>
-                      </div>
-
-                      <div className="grid md:grid-cols-2 gap-4">
-                        <div className="space-y-2">
-                          <Label htmlFor="email">Email Address *</Label>
-                          <Input id="email" type="email" placeholder="your.email@example.com" required />
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="phone">Phone Number *</Label>
-                          <Input id="phone" type="tel" placeholder="+44 7XXX XXXXXX" required />
-                        </div>
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="position">Position Applied For *</Label>
-                        <Select>
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select position" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {currentOpenings.map((job) => (
-                              <SelectItem key={job.id} value={job.id}>
-                                {job.title}
-                              </SelectItem>
-                            ))}
-                            <SelectItem value="speculative">Speculative Application</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="experience">Relevant Experience *</Label>
-                        <Textarea 
-                          id="experience" 
-                          placeholder="Please describe your relevant work experience and qualifications..."
-                          rows={4}
-                          required
-                        />
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="motivation">Why do you want to work at LCAS? *</Label>
-                        <Textarea 
-                          id="motivation" 
-                          placeholder="Tell us what motivates you to join our team..."
-                          rows={4}
-                          required
-                        />
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="availability">Availability</Label>
-                        <Textarea 
-                          id="availability" 
-                          placeholder="When are you available to start? Any notice period requirements?"
-                          rows={2}
-                        />
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="cv">CV/Resume *</Label>
-                        <Input id="cv" type="file" accept=".pdf,.doc,.docx" required />
-                        <p className="text-xs text-muted-foreground">
-                          Please upload your CV in PDF, DOC, or DOCX format (max 5MB)
-                        </p>
-                      </div>
-
-                      <div className="space-y-2">
-                        <Label htmlFor="coverLetter">Cover Letter</Label>
-                        <Input id="coverLetter" type="file" accept=".pdf,.doc,.docx" />
-                        <p className="text-xs text-muted-foreground">
-                          Optional: Upload a cover letter (PDF, DOC, or DOCX format)
-                        </p>
-                      </div>
-
-                      <Button type="submit" size="lg" className="w-full">
-                        Submit Application
-                        <Send className="ml-2 h-4 w-4" />
-                      </Button>
-                    </form>
+                    <CareersForm />
                   </CardContent>
                 </Card>
               </div>
