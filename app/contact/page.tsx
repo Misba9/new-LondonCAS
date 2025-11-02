@@ -2,11 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Clock, 
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
   MessageCircle,
   Building,
   Navigation
@@ -30,7 +30,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['info@londoncas.co.uk'],
+      details: ['hoc@londoncas.co.uk', 'director@londoncas.co.uk'],
       action: 'Send Email'
     },
     {
@@ -68,7 +68,7 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="text-xl text-slate-200 max-w-2xl mx-auto">
-              We're here to help with any questions about our courses, admissions process, 
+              We're here to help with any questions about our courses, admissions process,
               or student support services.
             </p>
           </div>
@@ -143,7 +143,7 @@ export default function ContactPage() {
                       <p className="text-xs">Google Maps integration</p>
                     </div>
                   </div>
-                  
+
                   <div className="space-y-4">
                     <div className="flex items-start space-x-3">
                       <Building className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
@@ -182,7 +182,7 @@ export default function ContactPage() {
                         <Mail className="h-4 w-4 text-blue-600" />
                         <span className="text-sm font-medium">General Inquiries</span>
                       </div>
-                      <a href="mailto:info@londoncas.co.uk" className="text-sm text-blue-600 hover:underline">
+                      <a href="mailto:hoc@londoncas.co.uk" className="text-sm text-blue-600 hover:underline">
                         Email
                       </a>
                     </div>
@@ -192,7 +192,7 @@ export default function ContactPage() {
                         <Mail className="h-4 w-4 text-green-600" />
                         <span className="text-sm font-medium">Admissions</span>
                       </div>
-                      <a href="mailto:admissions@londoncas.co.uk" className="text-sm text-green-600 hover:underline">
+                      <a href="mailto:hoc@londoncas.co.uk" className="text-sm text-green-600 hover:underline">
                         Email
                       </a>
                     </div>
@@ -202,7 +202,27 @@ export default function ContactPage() {
                         <Mail className="h-4 w-4 text-purple-600" />
                         <span className="text-sm font-medium">Student Support</span>
                       </div>
-                      <a href="mailto:support@londoncas.co.uk" className="text-sm text-purple-600 hover:underline">
+                      <a href="mailto:director@londoncas.co.uk" className="text-sm text-purple-600 hover:underline">
+                        Email
+                      </a>
+                    </div>
+
+                    <div className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+                      <div className="flex items-center space-x-3">
+                        <Mail className="h-4 w-4 text-yellow-600" />
+                        <span className="text-sm font-medium">Head of Courses</span>
+                      </div>
+                      <a href="mailto:hoc@londoncas.co.uk" className="text-sm text-yellow-600 hover:underline">
+                        Email
+                      </a>
+                    </div>
+
+                    <div className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+                      <div className="flex items-center space-x-3">
+                        <Mail className="h-4 w-4 text-red-600" />
+                        <span className="text-sm font-medium">Director</span>
+                      </div>
+                      <a href="mailto:director@londoncas.co.uk" className="text-sm text-red-600 hover:underline">
                         Email
                       </a>
                     </div>

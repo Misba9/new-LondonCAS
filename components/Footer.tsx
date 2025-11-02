@@ -84,8 +84,14 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-blue-400 flex-shrink-0" />
-                <a href="mailto:info@londoncas.co.uk" className="text-sm hover:text-blue-400">
-                  info@londoncas.co.uk
+                <a href="mailto:hoc@londoncas.co.uk" className="text-sm hover:text-blue-400">
+                  hoc@londoncas.co.uk
+                </a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Mail className="h-4 w-4 text-blue-400 flex-shrink-0" />
+                <a href="mailto:director@londoncas.co.uk" className="text-sm hover:text-blue-400">
+                  director@londoncas.co.uk
                 </a>
               </div>
             </div>

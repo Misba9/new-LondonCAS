@@ -3,11 +3,11 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { 
-  Briefcase, 
-  MapPin, 
-  Clock, 
-  Users, 
+import {
+  Briefcase,
+  MapPin,
+  Clock,
+  Users,
   Heart,
   TrendingUp,
   Award,
@@ -192,7 +192,7 @@ export default function CareersPage() {
               Careers at LCAS
             </h1>
             <p className="text-xl text-indigo-100 max-w-2xl mx-auto">
-              Be part of our mission to deliver high-quality, career-focused education. 
+              Be part of our mission to deliver high-quality, career-focused education.
               Join a dynamic team that's shaping the future of adult learning.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -218,7 +218,7 @@ export default function CareersPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Why Work With Us?</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              LCAS is more than just a workplace – it's a community of passionate educators 
+              LCAS is more than just a workplace – it's a community of passionate educators
               and professionals committed to making a difference.
             </p>
           </div>
@@ -359,7 +359,7 @@ export default function CareersPage() {
                   in hearing from talented individuals.
                 </p> */}
                 <p className="text-muted-foreground mb-6">
-                 Currently, we don't have any open positions. Please check back later for future opportunities.
+                  Currently, we don't have any open positions. Please check back later for future opportunities.
                 </p>
                 {/* <Button >
                   Submit Speculative Application
@@ -424,10 +424,10 @@ export default function CareersPage() {
                     <p className="text-sm text-muted-foreground">
                       Have questions about a position or the application process?
                     </p>
-                    
+
                     <div className="space-y-2 text-sm">
                       <p><strong>HR Department:</strong></p>
-                      <p>Email: hr@londoncas.co.uk</p>
+                      <p>Email: director@londoncas.co.uk</p>
                       <p>Phone: Coming Soon</p>
                     </div>
 
@@ -446,8 +446,8 @@ export default function CareersPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
-                      LCAS is an equal opportunities employer. We welcome applications 
-                      from all qualified candidates regardless of age, gender, race, 
+                      LCAS is an equal opportunities employer. We welcome applications
+                      from all qualified candidates regardless of age, gender, race,
                       religion, sexual orientation, or disability.
                     </p>
                   </CardContent>

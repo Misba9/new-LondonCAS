@@ -6,12 +6,12 @@ import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { 
-  HelpCircle, 
-  Search, 
-  BookOpen, 
-  Users, 
-  CreditCard, 
+import {
+  HelpCircle,
+  Search,
+  BookOpen,
+  Users,
+  CreditCard,
   Settings,
   MessageCircle,
   Phone,
@@ -161,7 +161,7 @@ export default function FAQsPage() {
         },
         {
           question: 'I\'m having trouble logging in. What should I do?',
-          answer: 'First, try resetting your password using the "Forgot Password" link. If problems persist, contact our technical support team at support@londoncas.co.uk or use the live chat feature during office hours.'
+          answer: 'First, try resetting your password using the "Forgot Password" link. If problems persist, contact our technical support team at director@londoncas.co.uk or use the live chat feature during office hours.'
         },
         {
           question: 'Can I access course materials on my mobile phone?',
@@ -211,16 +211,16 @@ export default function FAQsPage() {
               Frequently Asked Questions
             </h1>
             <p className="text-xl text-emerald-100 max-w-2xl mx-auto">
-              Find quick answers to common questions about our courses, admissions, 
+              Find quick answers to common questions about our courses, admissions,
               and student services. Can't find what you're looking for? Contact us directly.
             </p>
-            
+
             {/* Search Bar */}
             <div className="max-w-md mx-auto">
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-emerald-600" />
-                <Input 
-                  placeholder="Search FAQs..." 
+                <Input
+                  placeholder="Search FAQs..."
                   className="pl-10 bg-white text-slate-900 border-0"
                 />
               </div>
@@ -304,7 +304,7 @@ export default function FAQsPage() {
             <p className="text-lg text-muted-foreground">
               Can't find the answer you're looking for? Our support team is here to help.
             </p>
-            
+
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">

@@ -63,7 +63,7 @@ export default function CookiesPage() {
               Cookie Policy
             </h1>
             <p className="text-xl text-slate-200 max-w-2xl mx-auto">
-              Learn about how we use cookies and similar technologies to improve 
+              Learn about how we use cookies and similar technologies to improve
               your experience on our website.
             </p>
             <p className="text-sm text-slate-400">
@@ -77,7 +77,7 @@ export default function CookiesPage() {
       <section className="py-16">
         <div className="container px-4">
           <div className="max-w-4xl mx-auto space-y-12">
-            
+
             {/* Introduction */}
             <Card>
               <CardHeader>
@@ -88,16 +88,16 @@ export default function CookiesPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  Cookies are small text files that are stored on your device (computer, tablet, or mobile) 
-                  when you visit a website. They are widely used to make websites work more efficiently 
+                  Cookies are small text files that are stored on your device (computer, tablet, or mobile)
+                  when you visit a website. They are widely used to make websites work more efficiently
                   and to provide information to website owners.
                 </p>
                 <p>
-                  This Cookie Policy explains how London College of Advanced Studies ("LCAS", "we", "us", or "our") 
+                  This Cookie Policy explains how London College of Advanced Studies ("LCAS", "we", "us", or "our")
                   uses cookies and similar technologies on our website at londoncas.co.uk.
                 </p>
                 <p>
-                  By continuing to use our website, you consent to our use of cookies as described in this policy. 
+                  By continuing to use our website, you consent to our use of cookies as described in this policy.
                   You can manage your cookie preferences at any time using the settings described below.
                 </p>
               </CardContent>
@@ -112,7 +112,7 @@ export default function CookiesPage() {
                 <p className="text-muted-foreground mb-6">
                   We use different types of cookies for various purposes. Here's what each type does:
                 </p>
-                
+
                 <div className="space-y-6">
                   {cookieTypes.map((cookie, index) => {
                     const Icon = cookie.icon;
@@ -157,8 +157,8 @@ export default function CookiesPage() {
               <CardContent className="prose prose-slate max-w-none">
                 <h4>Google Analytics</h4>
                 <p>
-                  We use Google Analytics to understand how visitors interact with our website. 
-                  This helps us improve our content and user experience. Google Analytics uses 
+                  We use Google Analytics to understand how visitors interact with our website.
+                  This helps us improve our content and user experience. Google Analytics uses
                   cookies to collect information such as:
                 </p>
                 <ul>
@@ -168,8 +168,8 @@ export default function CookiesPage() {
                   <li>General location information (country/city level)</li>
                 </ul>
                 <p>
-                  The information collected is anonymous and cannot be used to identify individual users. 
-                  You can opt out of Google Analytics tracking by installing the 
+                  The information collected is anonymous and cannot be used to identify individual users.
+                  You can opt out of Google Analytics tracking by installing the
                   <a href="https://tools.google.com/dlpage/gaoptout" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
                     Google Analytics Opt-out Browser Add-on
                   </a>.
@@ -206,7 +206,7 @@ export default function CookiesPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  Some cookies on our website are set by third-party services that we use to enhance 
+                  Some cookies on our website are set by third-party services that we use to enhance
                   your experience. These may include:
                 </p>
 
@@ -224,7 +224,7 @@ export default function CookiesPage() {
                 </ul>
 
                 <p>
-                  These third-party services have their own privacy policies and cookie practices. 
+                  These third-party services have their own privacy policies and cookie practices.
                   We recommend reviewing their policies to understand how they use cookies:
                 </p>
                 <ul>
@@ -276,7 +276,7 @@ export default function CookiesPage() {
 
                 <h4>Mobile Devices</h4>
                 <p>
-                  For mobile devices, you can manage cookies through your browser app settings 
+                  For mobile devices, you can manage cookies through your browser app settings
                   or device privacy settings. The exact steps vary by device and browser.
                 </p>
               </CardContent>
@@ -323,7 +323,7 @@ export default function CookiesPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  We may update this Cookie Policy from time to time to reflect changes in our 
+                  We may update this Cookie Policy from time to time to reflect changes in our
                   practices, technology, or legal requirements. When we make changes, we will:
                 </p>
                 <ul>
@@ -332,7 +332,7 @@ export default function CookiesPage() {
                   <li>Notify you of significant changes through our website or email</li>
                 </ul>
                 <p>
-                  We encourage you to review this policy periodically to stay informed about 
+                  We encourage you to review this policy periodically to stay informed about
                   how we use cookies.
                 </p>
               </CardContent>
@@ -347,16 +347,16 @@ export default function CookiesPage() {
                 <p className="text-muted-foreground mb-6">
                   If you have any questions about our use of cookies or this Cookie Policy, please contact us:
                 </p>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold mb-3">Data Protection Officer</h4>
                     <div className="space-y-2 text-sm">
-                      <p>Email: dpo@londoncas.co.uk</p>
+                      <p>Email: director@londoncas.co.uk</p>
                       <p>Phone: Coming Soon</p>
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 className="font-semibold mb-3">Postal Address</h4>
                     <div className="text-sm text-muted-foreground">

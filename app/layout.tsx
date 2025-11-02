@@ -54,12 +54,16 @@ export default function RootLayout({
               "alternateName": "LCAS",
               "url": "https://londoncas.co.uk",
               "logo": "https://londoncas.co.uk/logo.png",
-              "contactPoint": {
+              "contactPoint": [{
                 "@type": "ContactPoint",
                 "telephone": "+44-20-XXXX-XXXX",
                 "contactType": "customer service",
-                "email": "info@londoncas.co.uk"
-              },
+                "email": "hoc@londoncas.co.uk"
+              }, {
+                "@type": "ContactPoint",
+                "contactType": "administrative",
+                "email": "director@londoncas.co.uk"
+              }],
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "9 New Road",

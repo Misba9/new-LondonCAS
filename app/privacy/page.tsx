@@ -83,7 +83,7 @@ export default function PrivacyPage() {
               Privacy Policy
             </h1>
             <p className="text-xl text-slate-200 max-w-2xl mx-auto">
-              Your privacy is important to us. This policy explains how we collect, 
+              Your privacy is important to us. This policy explains how we collect,
               use, and protect your personal information.
             </p>
             <p className="text-sm text-slate-400">
@@ -97,7 +97,7 @@ export default function PrivacyPage() {
       <section className="py-16">
         <div className="container px-4">
           <div className="max-w-4xl mx-auto space-y-12">
-            
+
             {/* Introduction */}
             <Card>
               <CardHeader>
@@ -108,17 +108,17 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  London College of Advanced Studies ("LCAS", "we", "us", or "our") is committed to protecting 
-                  and respecting your privacy. This Privacy Policy explains how we collect, use, disclose, 
+                  London College of Advanced Studies ("LCAS", "we", "us", or "our") is committed to protecting
+                  and respecting your privacy. This Privacy Policy explains how we collect, use, disclose,
                   and safeguard your information when you visit our website, apply for courses, or use our services.
                 </p>
                 <p>
-                  This policy applies to all personal data we process about you, whether you are a prospective 
-                  student, current student, graduate, website visitor, or other individual whose personal data 
+                  This policy applies to all personal data we process about you, whether you are a prospective
+                  student, current student, graduate, website visitor, or other individual whose personal data
                   we process in connection with our educational services.
                 </p>
                 <p>
-                  We are registered as a data controller with the Information Commissioner's Office (ICO) 
+                  We are registered as a data controller with the Information Commissioner's Office (ICO)
                   and comply with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.
                 </p>
               </CardContent>
@@ -133,7 +133,7 @@ export default function PrivacyPage() {
                 <p className="text-muted-foreground mb-6">
                   We collect and process various types of personal data depending on your relationship with us:
                 </p>
-                
+
                 <div className="grid md:grid-cols-3 gap-6">
                   {dataTypes.map((type, index) => {
                     const Icon = type.icon;
@@ -162,7 +162,7 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>We use your personal information for the following purposes:</p>
-                
+
                 <h4>Educational Services</h4>
                 <ul>
                   <li>Processing applications and enrollment</li>
@@ -205,23 +205,23 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>We process your personal data based on the following legal grounds:</p>
-                
+
                 <div className="space-y-4">
                   <div className="border-l-4 border-blue-500 pl-4">
                     <h4 className="font-semibold">Contract Performance</h4>
                     <p>Processing necessary for the performance of a contract with you or to take steps prior to entering into a contract (e.g., course enrollment, delivery of educational services).</p>
                   </div>
-                  
+
                   <div className="border-l-4 border-green-500 pl-4">
                     <h4 className="font-semibold">Legal Obligation</h4>
                     <p>Processing required to comply with legal obligations (e.g., reporting to regulatory bodies, maintaining educational records).</p>
                   </div>
-                  
+
                   <div className="border-l-4 border-purple-500 pl-4">
                     <h4 className="font-semibold">Legitimate Interests</h4>
                     <p>Processing necessary for our legitimate interests (e.g., improving services, marketing to existing students, security measures).</p>
                   </div>
-                  
+
                   <div className="border-l-4 border-orange-500 pl-4">
                     <h4 className="font-semibold">Consent</h4>
                     <p>Processing based on your explicit consent (e.g., marketing communications, optional services).</p>
@@ -237,7 +237,7 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>We may share your personal information with the following parties:</p>
-                
+
                 <h4>Educational Partners</h4>
                 <ul>
                   <li><strong>Highfield Qualifications:</strong> For course registration, assessment, and certification</li>
@@ -260,7 +260,7 @@ export default function PrivacyPage() {
                 </ul>
 
                 <p>
-                  We ensure that all third parties we share data with have appropriate security measures 
+                  We ensure that all third parties we share data with have appropriate security measures
                   in place and are contractually bound to protect your personal information.
                 </p>
               </CardContent>
@@ -275,7 +275,7 @@ export default function PrivacyPage() {
                 <p className="text-muted-foreground mb-6">
                   Under UK GDPR, you have the following rights regarding your personal data:
                 </p>
-                
+
                 <div className="space-y-4">
                   {yourRights.map((right, index) => (
                     <div key={index} className="border rounded-lg p-4">
@@ -288,7 +288,7 @@ export default function PrivacyPage() {
                 <div className="mt-6 p-4 bg-blue-50 rounded-lg">
                   <h4 className="font-semibold mb-2">How to Exercise Your Rights</h4>
                   <p className="text-sm text-muted-foreground">
-                    To exercise any of these rights, please contact our Data Protection Officer using 
+                    To exercise any of these rights, please contact our Data Protection Officer using
                     the contact details provided below. We will respond to your request within one month.
                   </p>
                 </div>
@@ -302,10 +302,10 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  We implement appropriate technical and organizational measures to protect your personal 
+                  We implement appropriate technical and organizational measures to protect your personal
                   data against unauthorized access, alteration, disclosure, or destruction. These measures include:
                 </p>
-                
+
                 <ul>
                   <li>Encryption of data in transit and at rest</li>
                   <li>Regular security assessments and updates</li>
@@ -316,8 +316,8 @@ export default function PrivacyPage() {
                 </ul>
 
                 <p>
-                  While we strive to protect your personal information, no method of transmission over 
-                  the internet or electronic storage is 100% secure. We cannot guarantee absolute security 
+                  While we strive to protect your personal information, no method of transmission over
+                  the internet or electronic storage is 100% secure. We cannot guarantee absolute security
                   but are committed to protecting your data using industry-standard practices.
                 </p>
               </CardContent>
@@ -330,7 +330,7 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>We retain your personal data for as long as necessary to fulfill the purposes outlined in this policy:</p>
-                
+
                 <ul>
                   <li><strong>Student Records:</strong> Retained for 6 years after course completion for regulatory compliance</li>
                   <li><strong>Application Data:</strong> Retained for 2 years for unsuccessful applications</li>
@@ -340,7 +340,7 @@ export default function PrivacyPage() {
                 </ul>
 
                 <p>
-                  After the retention period expires, we will securely delete or anonymize your personal data 
+                  After the retention period expires, we will securely delete or anonymize your personal data
                   unless we are required to retain it for legal reasons.
                 </p>
               </CardContent>
@@ -353,11 +353,11 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  Our website uses cookies and similar tracking technologies to enhance your browsing experience 
-                  and analyze website usage. For detailed information about our use of cookies, please see our 
+                  Our website uses cookies and similar tracking technologies to enhance your browsing experience
+                  and analyze website usage. For detailed information about our use of cookies, please see our
                   <Link href="/cookies" className="text-blue-600 hover:underline"> Cookie Policy</Link>.
                 </p>
-                
+
                 <p>You can control cookie settings through your browser preferences:</p>
                 <ul>
                   <li>Accept or reject cookies</li>
@@ -375,10 +375,10 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  We may update this Privacy Policy from time to time to reflect changes in our practices, 
+                  We may update this Privacy Policy from time to time to reflect changes in our practices,
                   technology, legal requirements, or other factors. We will notify you of any material changes by:
                 </p>
-                
+
                 <ul>
                   <li>Posting the updated policy on our website</li>
                   <li>Updating the "Last Updated" date</li>
@@ -387,7 +387,7 @@ export default function PrivacyPage() {
                 </ul>
 
                 <p>
-                  We encourage you to review this policy periodically to stay informed about how we 
+                  We encourage you to review this policy periodically to stay informed about how we
                   protect your personal information.
                 </p>
               </CardContent>
@@ -402,15 +402,15 @@ export default function PrivacyPage() {
                 <p className="text-muted-foreground mb-6">
                   If you have any questions about this Privacy Policy or our data practices, please contact us:
                 </p>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold mb-3">Data Protection Officer</h4>
                     <div className="space-y-2 text-sm">
                       <div className="flex items-center space-x-2">
                         <Mail className="h-4 w-4 text-blue-600" />
-                        <a href="mailto:dpo@londoncas.co.uk" className="hover:text-blue-600">
-                          dpo@londoncas.co.uk
+                        <a href="mailto:director@londoncas.co.uk" className="hover:text-blue-600">
+                          director@londoncas.co.uk
                         </a>
                       </div>
                       <div className="flex items-center space-x-2">
@@ -419,7 +419,7 @@ export default function PrivacyPage() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 className="font-semibold mb-3">Postal Address</h4>
                     <div className="text-sm text-muted-foreground">
@@ -434,9 +434,9 @@ export default function PrivacyPage() {
                 <div className="mt-6 p-4 bg-slate-50 rounded-lg">
                   <h4 className="font-semibold mb-2">Complaints</h4>
                   <p className="text-sm text-muted-foreground">
-                    If you are not satisfied with our response to your data protection concerns, 
-                    you have the right to lodge a complaint with the Information Commissioner's Office (ICO) 
-                    at <a href="https://ico.org.uk" className="text-blue-600 hover:underline">ico.org.uk</a> 
+                    If you are not satisfied with our response to your data protection concerns,
+                    you have the right to lodge a complaint with the Information Commissioner's Office (ICO)
+                    at <a href="https://ico.org.uk" className="text-blue-600 hover:underline">ico.org.uk</a>
                     or by calling 0303 123 1113.
                   </p>
                 </div>

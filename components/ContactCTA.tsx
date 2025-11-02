@@ -15,7 +15,7 @@ const ContactCTA = () => {
               Ready to Start Your Educational Journey?
             </h2>
             <p className="text-lg text-blue-100">
-              Get in touch with our admissions team today. We're here to help you 
+              Get in touch with our admissions team today. We're here to help you
               choose the right qualification and guide you through the application process.
             </p>
 
@@ -53,8 +53,12 @@ const ContactCTA = () => {
                   <Mail className="h-5 w-5 text-blue-300 flex-shrink-0 mt-0.5" />
                   <div className="text-sm">
                     <p className="font-medium text-white">Email</p>
-                    <a href="mailto:info@londoncas.co.uk" className="text-blue-100 hover:text-white">
-                      info@londoncas.co.uk
+                    <a href="mailto:hoc@londoncas.co.uk" className="text-blue-100 hover:text-white">
+                      hoc@londoncas.co.uk
+                    </a>
+                    <br />
+                    <a href="mailto:director@londoncas.co.uk" className="text-blue-100 hover:text-white">
+                      director@londoncas.co.uk
                     </a>
                   </div>
                 </div>

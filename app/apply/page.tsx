@@ -3,13 +3,13 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { 
-  FileText, 
-  Clock, 
-  CheckCircle, 
-  User, 
-  Mail, 
-  Phone, 
+import {
+  FileText,
+  Clock,
+  CheckCircle,
+  User,
+  Mail,
+  Phone,
   MapPin,
   Calendar,
   BookOpen,
@@ -83,7 +83,7 @@ export default function ApplyPage() {
               Apply Now
             </h1>
             <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-              Take the first step towards advancing your career in Health and Social Care. 
+              Take the first step towards advancing your career in Health and Social Care.
               Our simple application process gets you started quickly.
             </p>
           </div>
@@ -96,7 +96,7 @@ export default function ApplyPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Application Process</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our streamlined application process is designed to be simple and efficient, 
+              Our streamlined application process is designed to be simple and efficient,
               getting you enrolled quickly.
             </p>
           </div>
@@ -185,12 +185,12 @@ export default function ApplyPage() {
                     <p className="text-sm text-muted-foreground">
                       Our admissions team is here to help with your application.
                     </p>
-                    
+
                     <div className="space-y-3">
                       <div className="flex items-center space-x-3">
                         <Mail className="h-4 w-4 text-blue-600" />
-                        <a href="mailto:admissions@londoncas.co.uk" className="text-sm hover:text-blue-600">
-                          admissions@londoncas.co.uk
+                        <a href="mailto:hoc@londoncas.co.uk" className="text-sm hover:text-blue-600">
+                          hoc@londoncas.co.uk
                         </a>
                       </div>
                       <div className="flex items-center space-x-3">

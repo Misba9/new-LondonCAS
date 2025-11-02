@@ -8,11 +8,11 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { 
-  MessageCircle, 
-  Phone, 
-  Mail, 
-  Clock, 
+import {
+  MessageCircle,
+  Phone,
+  Mail,
+  Clock,
   HelpCircle,
   Send,
   BookOpen,
@@ -163,7 +163,7 @@ export default function SupportPage() {
               Contact Support
             </h1>
             <p className="text-xl text-purple-100 max-w-2xl mx-auto">
-              Get the help you need to succeed in your studies. Our support team is available 
+              Get the help you need to succeed in your studies. Our support team is available
               to assist with technical issues, academic questions, and more.
             </p>
           </div>
@@ -176,7 +176,7 @@ export default function SupportPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">How Can We Help You?</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Choose the support channel that works best for your needs. 
+              Choose the support channel that works best for your needs.
               We're committed to providing quick and effective assistance.
             </p>
           </div>
@@ -301,8 +301,8 @@ export default function SupportPage() {
 
                         <div className="space-y-2">
                           <Label htmlFor="description">Detailed Description *</Label>
-                          <Textarea 
-                            id="description" 
+                          <Textarea
+                            id="description"
                             placeholder="Please provide as much detail as possible about your issue, including any error messages, steps you've taken, and when the problem started..."
                             rows={6}
                             required
@@ -367,8 +367,8 @@ export default function SupportPage() {
                       <div className="space-y-3">
                         <div className="flex items-center space-x-3">
                           <Mail className="h-4 w-4 text-blue-600" />
-                          <a href="mailto:support@londoncas.co.uk" className="text-sm hover:text-blue-600">
-                            support@londoncas.co.uk
+                          <a href="mailto:director@londoncas.co.uk" className="text-sm hover:text-blue-600">
+                            director@londoncas.co.uk
                           </a>
                         </div>
                         <div className="flex items-center space-x-3">
@@ -414,7 +414,7 @@ export default function SupportPage() {
                 <div className="text-center">
                   <h3 className="text-2xl font-bold mb-4">Frequently Asked Questions</h3>
                   <p className="text-muted-foreground max-w-2xl mx-auto">
-                    Find quick answers to common questions. If you can't find what you're looking for, 
+                    Find quick answers to common questions. If you can't find what you're looking for,
                     please submit a support ticket.
                   </p>
                 </div>

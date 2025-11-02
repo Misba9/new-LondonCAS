@@ -38,7 +38,7 @@ export default function TermsPage() {
               Terms & Conditions
             </h1>
             <p className="text-xl text-slate-200 max-w-2xl mx-auto">
-              These terms govern your use of our website and services. 
+              These terms govern your use of our website and services.
               Please read them carefully before using our services.
             </p>
             <p className="text-sm text-slate-400">
@@ -52,7 +52,7 @@ export default function TermsPage() {
       <section className="py-16">
         <div className="container px-4">
           <div className="max-w-4xl mx-auto space-y-12">
-            
+
             {/* Introduction */}
             <Card>
               <CardHeader>
@@ -63,18 +63,18 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  Welcome to London College of Advanced Studies ("LCAS", "we", "us", or "our"). 
-                  These Terms and Conditions ("Terms") govern your use of our website, services, 
+                  Welcome to London College of Advanced Studies ("LCAS", "we", "us", or "our").
+                  These Terms and Conditions ("Terms") govern your use of our website, services,
                   and educational programs.
                 </p>
                 <p>
-                  By accessing our website, applying for courses, or using our services, you agree 
-                  to be bound by these Terms. If you do not agree with any part of these Terms, 
+                  By accessing our website, applying for courses, or using our services, you agree
+                  to be bound by these Terms. If you do not agree with any part of these Terms,
                   you must not use our services.
                 </p>
                 <p>
-                  These Terms apply to all users of our services, including prospective students, 
-                  current students, graduates, website visitors, and any other individuals who 
+                  These Terms apply to all users of our services, including prospective students,
+                  current students, graduates, website visitors, and any other individuals who
                   interact with our services.
                 </p>
               </CardContent>
@@ -87,7 +87,7 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>In these Terms, the following definitions apply:</p>
-                
+
                 <ul>
                   <li><strong>"College" or "LCAS"</strong> means London College of Advanced Studies</li>
                   <li><strong>"Student"</strong> means any person enrolled in a course or program offered by LCAS</li>
@@ -129,9 +129,9 @@ export default function TermsPage() {
 
                 <h4>Account Security</h4>
                 <p>
-                  If you create an account with us, you are responsible for maintaining the 
-                  confidentiality of your login credentials and for all activities that occur 
-                  under your account. You must notify us immediately of any unauthorized use 
+                  If you create an account with us, you are responsible for maintaining the
+                  confidentiality of your login credentials and for all activities that occur
+                  under your account. You must notify us immediately of any unauthorized use
                   of your account.
                 </p>
               </CardContent>
@@ -145,14 +145,14 @@ export default function TermsPage() {
               <CardContent className="prose prose-slate max-w-none">
                 <h4>Course Enrollment</h4>
                 <p>
-                  Enrollment in our courses is subject to meeting entry requirements, availability, 
-                  and acceptance of your application. We reserve the right to refuse enrollment 
+                  Enrollment in our courses is subject to meeting entry requirements, availability,
+                  and acceptance of your application. We reserve the right to refuse enrollment
                   or terminate enrollment for academic or disciplinary reasons.
                 </p>
 
                 <h4>Course Delivery</h4>
                 <p>
-                  We will make reasonable efforts to deliver courses as described in our course 
+                  We will make reasonable efforts to deliver courses as described in our course
                   information. However, we reserve the right to:
                 </p>
                 <ul>
@@ -175,8 +175,8 @@ export default function TermsPage() {
 
                 <h4>Assessment and Certification</h4>
                 <p>
-                  Assessment methods and certification requirements are determined by LCAS 
-                  and our awarding body (Highfield Qualifications). Students must meet all 
+                  Assessment methods and certification requirements are determined by LCAS
+                  and our awarding body (Highfield Qualifications). Students must meet all
                   assessment requirements to receive certification.
                 </p>
               </CardContent>
@@ -190,8 +190,8 @@ export default function TermsPage() {
               <CardContent className="prose prose-slate max-w-none">
                 <h4>Course Fees</h4>
                 <p>
-                  Course fees are as published on our website or in course documentation. 
-                  Fees are subject to change, but changes will not affect students already 
+                  Course fees are as published on our website or in course documentation.
+                  Fees are subject to change, but changes will not affect students already
                   enrolled unless agreed in writing.
                 </p>
 
@@ -222,14 +222,14 @@ export default function TermsPage() {
               <CardContent className="prose prose-slate max-w-none">
                 <h4>Our Content</h4>
                 <p>
-                  All content on our website and in our courses, including text, images, videos, 
-                  logos, and course materials, is owned by LCAS or our licensors and is protected 
+                  All content on our website and in our courses, including text, images, videos,
+                  logos, and course materials, is owned by LCAS or our licensors and is protected
                   by copyright and other intellectual property laws.
                 </p>
 
                 <h4>Limited License</h4>
                 <p>
-                  We grant you a limited, non-exclusive, non-transferable license to access and 
+                  We grant you a limited, non-exclusive, non-transferable license to access and
                   use our content for personal, educational purposes only. You may not:
                 </p>
                 <ul>
@@ -241,8 +241,8 @@ export default function TermsPage() {
 
                 <h4>Student Work</h4>
                 <p>
-                  You retain ownership of original work you create as part of your studies. 
-                  However, you grant us a license to use your work for educational, promotional, 
+                  You retain ownership of original work you create as part of your studies.
+                  However, you grant us a license to use your work for educational, promotional,
                   and quality assurance purposes.
                 </p>
               </CardContent>
@@ -255,12 +255,12 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  We are committed to protecting your privacy and personal data. Our collection, 
-                  use, and protection of your personal information is governed by our 
-                  <Link href="/privacy" className="text-blue-600 hover:underline"> Privacy Policy</Link>, 
+                  We are committed to protecting your privacy and personal data. Our collection,
+                  use, and protection of your personal information is governed by our
+                  <Link href="/privacy" className="text-blue-600 hover:underline"> Privacy Policy</Link>,
                   which forms part of these Terms.
                 </p>
-                
+
                 <p>By using our services, you consent to:</p>
                 <ul>
                   <li>The collection and processing of your personal data as described in our Privacy Policy</li>
@@ -280,8 +280,8 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  To the fullest extent permitted by law, LCAS shall not be liable for any 
-                  indirect, incidental, special, consequential, or punitive damages, including 
+                  To the fullest extent permitted by law, LCAS shall not be liable for any
+                  indirect, incidental, special, consequential, or punitive damages, including
                   but not limited to loss of profits, data, or business opportunities.
                 </p>
 
@@ -303,11 +303,11 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  We shall not be liable for any failure or delay in performing our obligations 
-                  under these Terms if such failure or delay results from circumstances beyond 
+                  We shall not be liable for any failure or delay in performing our obligations
+                  under these Terms if such failure or delay results from circumstances beyond
                   our reasonable control, including but not limited to:
                 </p>
-                
+
                 <ul>
                   <li>Natural disasters, pandemics, or public health emergencies</li>
                   <li>Government actions, laws, or regulations</li>
@@ -318,7 +318,7 @@ export default function TermsPage() {
                 </ul>
 
                 <p>
-                  In such circumstances, we will make reasonable efforts to minimize disruption 
+                  In such circumstances, we will make reasonable efforts to minimize disruption
                   and may provide alternative delivery methods or arrangements.
                 </p>
               </CardContent>
@@ -332,8 +332,8 @@ export default function TermsPage() {
               <CardContent className="prose prose-slate max-w-none">
                 <h4>Termination by You</h4>
                 <p>
-                  You may terminate your enrollment or use of our services at any time by 
-                  providing written notice. Refunds, if applicable, will be processed according 
+                  You may terminate your enrollment or use of our services at any time by
+                  providing written notice. Refunds, if applicable, will be processed according
                   to our refund policy.
                 </p>
 
@@ -348,8 +348,8 @@ export default function TermsPage() {
 
                 <h4>Effect of Termination</h4>
                 <p>
-                  Upon termination, your right to access our services will cease immediately. 
-                  Provisions of these Terms that by their nature should survive termination 
+                  Upon termination, your right to access our services will cease immediately.
+                  Provisions of these Terms that by their nature should survive termination
                   will remain in effect.
                 </p>
               </CardContent>
@@ -362,17 +362,17 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="prose prose-slate max-w-none">
                 <p>
-                  These Terms are governed by and construed in accordance with the laws of 
-                  England and Wales. Any disputes arising from these Terms or your use of 
-                  our services shall be subject to the exclusive jurisdiction of the courts 
+                  These Terms are governed by and construed in accordance with the laws of
+                  England and Wales. Any disputes arising from these Terms or your use of
+                  our services shall be subject to the exclusive jurisdiction of the courts
                   of England and Wales.
                 </p>
 
                 <h4>Dispute Resolution</h4>
                 <p>
-                  We encourage you to contact us first to resolve any disputes informally. 
-                  If we cannot resolve a dispute through direct discussion, we may suggest 
-                  mediation or other alternative dispute resolution methods before pursuing 
+                  We encourage you to contact us first to resolve any disputes informally.
+                  If we cannot resolve a dispute through direct discussion, we may suggest
+                  mediation or other alternative dispute resolution methods before pursuing
                   formal legal proceedings.
                 </p>
               </CardContent>
@@ -386,35 +386,35 @@ export default function TermsPage() {
               <CardContent className="prose prose-slate max-w-none">
                 <h4>Entire Agreement</h4>
                 <p>
-                  These Terms, together with our Privacy Policy and any other policies 
-                  referenced herein, constitute the entire agreement between you and LCAS 
+                  These Terms, together with our Privacy Policy and any other policies
+                  referenced herein, constitute the entire agreement between you and LCAS
                   regarding your use of our services.
                 </p>
 
                 <h4>Amendments</h4>
                 <p>
-                  We may update these Terms from time to time. We will notify you of material 
-                  changes by posting the updated Terms on our website and updating the "Last Updated" 
-                  date. Your continued use of our services after changes take effect constitutes 
+                  We may update these Terms from time to time. We will notify you of material
+                  changes by posting the updated Terms on our website and updating the "Last Updated"
+                  date. Your continued use of our services after changes take effect constitutes
                   acceptance of the new Terms.
                 </p>
 
                 <h4>Severability</h4>
                 <p>
-                  If any provision of these Terms is found to be invalid or unenforceable, 
+                  If any provision of these Terms is found to be invalid or unenforceable,
                   the remaining provisions will remain in full force and effect.
                 </p>
 
                 <h4>Waiver</h4>
                 <p>
-                  Our failure to enforce any provision of these Terms does not constitute 
+                  Our failure to enforce any provision of these Terms does not constitute
                   a waiver of that provision or any other provision.
                 </p>
 
                 <h4>Assignment</h4>
                 <p>
-                  You may not assign or transfer your rights under these Terms without our 
-                  written consent. We may assign our rights and obligations under these Terms 
+                  You may not assign or transfer your rights under these Terms without our
+                  written consent. We may assign our rights and obligations under these Terms
                   without restriction.
                 </p>
               </CardContent>
@@ -432,16 +432,16 @@ export default function TermsPage() {
                 <p className="text-muted-foreground mb-6">
                   If you have any questions about these Terms, please contact us:
                 </p>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold mb-3">Legal Department</h4>
                     <div className="space-y-2 text-sm">
-                      <p>Email: legal@londoncas.co.uk</p>
+                      <p>Email: director@londoncas.co.uk</p>
                       <p>Phone: Coming Soon</p>
                     </div>
                   </div>
-                  
+
                   <div>
                     <h4 className="font-semibold mb-3">Postal Address</h4>
                     <div className="text-sm text-muted-foreground">
@@ -455,7 +455,7 @@ export default function TermsPage() {
 
                 <div className="mt-6 p-4 bg-blue-50 rounded-lg">
                   <p className="text-sm text-muted-foreground">
-                    <strong>Company Registration:</strong> London College of Advanced Studies is a private limited company 
+                    <strong>Company Registration:</strong> London College of Advanced Studies is a private limited company
                     registered in England and Wales. Company registration details available upon request.
                   </p>
                 </div>
